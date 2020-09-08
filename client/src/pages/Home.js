@@ -61,11 +61,11 @@ class Home extends Component {
       <Container>
         <Row>
           <Col size="md-12">
-            <Jumbotron>
-              <h1 className="text-center">
+            <Jumbotron id="jumbotron">
+              <h1 className="text-center jumbotitle">
                 <strong>Google Books Search</strong>
               </h1>
-              <h2 className="text-center">
+              <h2 className="text-center jumbotitle">
                 Search for and Save Books of Interest.
               </h2>
             </Jumbotron>
