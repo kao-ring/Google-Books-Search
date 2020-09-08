@@ -16,6 +16,7 @@ class Home extends Component {
   };
 
   handleInputChange = (event) => {
+    console.log("InputChange@@@");
     const { name, value } = event.target;
     this.setState({
       [name]: value,
@@ -38,6 +39,7 @@ class Home extends Component {
   };
 
   handleFormSubmit = (event) => {
+    console.log("SubmitBtn@@@");
     event.preventDefault();
     this.getBooks();
   };
